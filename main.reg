@@ -28,4 +28,4 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000100
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
-"ConsentPromptBehaviorAdmin"=dword:00000110
+"ConsentPromptBehaviorAdmin"=dword:00000110   haha
