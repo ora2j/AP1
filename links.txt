@@ -1,0 +1,1 @@
+https://4sysops.com/archives/using-the-windows-defender-powershell-cmdlets/#:~:text=Using%20the%20Windows%20Defender%20PowerShell%20cmdlets%201%20Managing,4%20Scanning%20...%205%20Using%20with%20CIM%20
