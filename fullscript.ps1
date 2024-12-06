@@ -16,3 +16,4 @@
     Set-MpPreference -DisableDnsParsing 
     Set-MpPreference -DisableIOAVProtection $false
     Set-MpPreference -DisableNetworkProtectionPerfTelemetry $false
+    Limit-EventLog -LogName "Windows PowerShell" -MaximumSize 20KB
