@@ -36,3 +36,14 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Personalization]
 "NoLockScreenCamera"=dword:00000001
 
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\AppPrivacy]
+"LetAppsActivateWithVoiceAboveLock"=dword:00000010
+
+[HKEY_LOCAL_MACHINE\Software\Policies\Google\ChromeOS]
+"DeviceKerberosEncryptionTypes"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\<InstanceName>\Parameters]
+"LDAPServerIntegrity"=dword:00000010
+
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows Defender\MpEngine]
+"MpCloudBlockLevel"=dword:00000100
