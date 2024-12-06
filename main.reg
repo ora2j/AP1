@@ -47,3 +47,15 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows Defender\MpEngine]
 "MpCloudBlockLevel"=dword:00000100
+
+[HKLM\SOFTWARE\Wow6432Node\Policies\Microsoft\Windows\PowerShell\Transcription]
+"EnableTranscripting"=dword:00000001
+
+[HKLM\SOFTWARE\Wow6432Node\Policies\Microsoft\Windows\PowerShell\Transcription]
+"EnableInvocationHeader"=dword:00000001
+
+[HKLM\SOFTWARE\Wow6432Node\Policies\Microsoft\Windows\PowerShell\Transcription] 
+"OutputDirectory"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\LSASS.exe]
+"AuditLevel"=dword:00000008
