@@ -59,3 +59,12 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\LSASS.exe]
 "AuditLevel"=dword:00000008
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile]
+"EnableFirewall"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"IncludeRecommendedUpdates"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoAutorun"=dword:00000001
